@@ -1,0 +1,35 @@
+//
+//  PBHome.pch
+//  PBHome
+//
+//  Created by DaMaiIOS on 17/9/16.
+//  Copyright © 2017年 DaMaiIOS. All rights reserved.
+//
+
+#ifndef PBHome_pch
+#define PBHome_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//对内,包含需要引入项目中其他Bundle中的文件
+
+//系统头文件
+#import <UIKit/UIKit.h>
+
+//项目头文件
+#import "PBHomePage.h"
+#import "PBRouter.h"
+
+//项目内部库头文件
+
+//集团二方库头文件
+
+//外部三方库头文件
+#import <YYText/YYLabel.h>
+
+
+//其他bundle的页面全局变量
+
+#endif /* PBHome_pch */
