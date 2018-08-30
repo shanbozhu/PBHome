@@ -1,6 +1,6 @@
 
-ali_source 'alibaba-specs' #集团内部仓库
-ali_source 'alibaba-specs-mirror' #官方镜像仓库
+#ali_source 'alibaba-specs' #集团内部仓库
+#ali_source 'alibaba-specs-mirror' #官方镜像仓库
 
 
 #私有仓库地址
