@@ -11,6 +11,7 @@ platform :ios, '8.0'
 target 'PBHome' do
 
     #项目内部库
+    pod 'PBNavigator', '1.0.2-SNAPSHOT'
     
     #集团二方库
     

@@ -20,9 +20,9 @@
 
 //项目头文件
 #import "PBHomePage.h"
-#import "PBRouter.h"
 
 //项目内部库头文件
+#import <PBNavigator/PBNavigator.h>
 
 //集团二方库头文件
 
