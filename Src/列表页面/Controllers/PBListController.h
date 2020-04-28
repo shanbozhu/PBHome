@@ -10,6 +10,6 @@
 
 @interface PBListController : UIViewController
 
-@property(nonatomic, copy)NSString *desc;
+@property (nonatomic, copy) NSString *desc;
 
 @end

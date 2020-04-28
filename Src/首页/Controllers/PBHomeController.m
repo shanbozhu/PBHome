@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     UILabel *lab = [[UILabel alloc]init];
     [self.view addSubview:lab];
     lab.font = [UIFont systemFontOfSize:15];
@@ -27,13 +26,11 @@
     lab.text = @"点我吧,啊啊啊啊啊啊";
     lab.userInteractionEnabled = YES;
     
-    
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapClick:)];
     [self.view addGestureRecognizer:tap];
 }
 
--(void)tapClick:(UITapGestureRecognizer *)tap {
-    
+- (void)tapClick:(UITapGestureRecognizer *)tap {
     PBListController *vc = [[PBListController alloc]init];
     vc.hidesBottomBarWhenPushed = YES;
     

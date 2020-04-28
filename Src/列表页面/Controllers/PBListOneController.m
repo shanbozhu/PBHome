@@ -14,7 +14,7 @@
 
 @implementation PBListOneController
 
--(void)viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
     self.view.backgroundColor = [UIColor lightGrayColor];
@@ -22,11 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    
 }
-
-
-
 
 @end
