@@ -23,7 +23,7 @@
     lab.font = [UIFont systemFontOfSize:15];
     lab.textAlignment = NSTextAlignmentCenter;
     lab.frame = CGRectMake(50, 200, [UIScreen mainScreen].bounds.size.width-100, 20);
-    lab.text = @"点我吧,啊啊啊啊啊啊";
+    lab.text = @"点我吧,啊啊啊啊啊啊00";
     lab.userInteractionEnabled = YES;
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapClick:)];
