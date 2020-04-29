@@ -27,14 +27,14 @@
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if ([super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        //lab
+        // lab
         YYLabel *lab = [[YYLabel alloc]initWithFrame:CGRectZero];
         self.lab = lab;
         [self.contentView addSubview:lab];
         lab.font = [UIFont systemFontOfSize:15];
         lab.numberOfLines = 0;
         
-        //imageView
+        // imageView
         UIImageView *imageView = [[UIImageView alloc]init];
         [self.contentView addSubview:imageView];
         imageView.frame = CGRectMake(50, 30, 100, 20);
@@ -50,7 +50,7 @@
 }
 
 - (void)fillListCell {
-    //lab
+    // lab
     self.lab.frame = CGRectMake(20, 10, [UIScreen mainScreen].bounds.size.width-40, 20);
     self.lab.text = self.list.summaryText;
 }
