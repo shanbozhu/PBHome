@@ -19,8 +19,8 @@
 		95A4F65A24EBF01A00A5A024 /* PBListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A4F64A24EBF01A00A5A024 /* PBListCell.h */; };
 		95A4F65B24EBF01A00A5A024 /* PBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A4F64D24EBF01A00A5A024 /* PBHomeController.m */; };
 		95A4F65C24EBF01A00A5A024 /* PBHomeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A4F64E24EBF01A00A5A024 /* PBHomeController.h */; };
-		B0D836681FC5802600BCFC13 /* PBHomePage.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D836661FC5802600BCFC13 /* PBHomePage.h */; };
-		B0D836691FC5802600BCFC13 /* PBHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D836671FC5802600BCFC13 /* PBHomePage.m */; };
+		95A4F67924EBF70C00A5A024 /* PBHomePage.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A4F67724EBF70C00A5A024 /* PBHomePage.h */; };
+		95A4F67A24EBF70C00A5A024 /* PBHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A4F67824EBF70C00A5A024 /* PBHomePage.m */; };
 		B0DFE27E1FC5621C008D7DB2 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0DFE2691FC5621C008D7DB2 /* Resource.bundle */; };
 		B0DFE2891FC5621C008D7DB2 /* PBHome.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DFE27B1FC5621C008D7DB2 /* PBHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0DFE28A1FC5621C008D7DB2 /* PBHome.pch in Headers */ = {isa = PBXBuildFile; fileRef = B0DFE27C1FC5621C008D7DB2 /* PBHome.pch */; };
@@ -41,11 +41,11 @@
 		95A4F64A24EBF01A00A5A024 /* PBListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBListCell.h; sourceTree = "<group>"; };
 		95A4F64D24EBF01A00A5A024 /* PBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHomeController.m; sourceTree = "<group>"; };
 		95A4F64E24EBF01A00A5A024 /* PBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHomeController.h; sourceTree = "<group>"; };
+		95A4F67724EBF70C00A5A024 /* PBHomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHomePage.h; sourceTree = "<group>"; };
+		95A4F67824EBF70C00A5A024 /* PBHomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHomePage.m; sourceTree = "<group>"; };
 		95EDB3A32455BBF6003A43D4 /* PBNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PBNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08A0C45145C331FC90568B2 /* Pods-PBHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBHome/Pods-PBHome.release.xcconfig"; sourceTree = "<group>"; };
 		B06D54361F6D2E580092623E /* PBHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0D836661FC5802600BCFC13 /* PBHomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBHomePage.h; sourceTree = "<group>"; };
-		B0D836671FC5802600BCFC13 /* PBHomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBHomePage.m; sourceTree = "<group>"; };
 		B0DFE2691FC5621C008D7DB2 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 		B0DFE27B1FC5621C008D7DB2 /* PBHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHome.h; sourceTree = "<group>"; };
 		B0DFE27C1FC5621C008D7DB2 /* PBHome.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHome.pch; sourceTree = "<group>"; };
@@ -146,11 +146,19 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		95A4F67624EBF70C00A5A024 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				95A4F67724EBF70C00A5A024 /* PBHomePage.h */,
+				95A4F67824EBF70C00A5A024 /* PBHomePage.m */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
 		B06D542C1F6D2E580092623E = {
 			isa = PBXGroup;
 			children = (
 				B0DFE26A1FC5621C008D7DB2 /* Sources */,
-				B0D836621FC57F7900BCFC13 /* Page */,
 				B0DFE2681FC5621C008D7DB2 /* Resources */,
 				B06D54371F6D2E580092623E /* Products */,
 				D3252F1F23B3B4B7647B8A53 /* Pods */,
@@ -166,15 +174,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0D836621FC57F7900BCFC13 /* Page */ = {
-			isa = PBXGroup;
-			children = (
-				B0D836661FC5802600BCFC13 /* PBHomePage.h */,
-				B0D836671FC5802600BCFC13 /* PBHomePage.m */,
-			);
-			path = Page;
-			sourceTree = "<group>";
-		};
 		B0DFE2681FC5621C008D7DB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +185,7 @@
 		B0DFE26A1FC5621C008D7DB2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				95A4F67624EBF70C00A5A024 /* Page */,
 				95A4F63924EBEFCF00A5A024 /* Business */,
 				95A4F63824EBEFC700A5A024 /* API */,
 				B0DFE27B1FC5621C008D7DB2 /* PBHome.h */,
@@ -211,7 +211,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D836681FC5802600BCFC13 /* PBHomePage.h in Headers */,
 				95A4F65524EBF01A00A5A024 /* PBListController.h in Headers */,
 				95A4F65924EBF01A00A5A024 /* PBListView.h in Headers */,
 				B0DFE2891FC5621C008D7DB2 /* PBHome.h in Headers */,
@@ -219,6 +218,7 @@
 				95A4F65424EBF01A00A5A024 /* PBListOneController.h in Headers */,
 				B0DFE28A1FC5621C008D7DB2 /* PBHome.pch in Headers */,
 				95A4F65A24EBF01A00A5A024 /* PBListCell.h in Headers */,
+				95A4F67924EBF70C00A5A024 /* PBHomePage.h in Headers */,
 				95A4F65124EBF01A00A5A024 /* PBList.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +331,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D836691FC5802600BCFC13 /* PBHomePage.m in Sources */,
 				95A4F65624EBF01A00A5A024 /* PBListOneController.m in Sources */,
+				95A4F67A24EBF70C00A5A024 /* PBHomePage.m in Sources */,
 				95A4F65724EBF01A00A5A024 /* PBListView.m in Sources */,
 				95A4F65224EBF01A00A5A024 /* PBList.m in Sources */,
 				95A4F65B24EBF01A00A5A024 /* PBHomeController.m in Sources */,
