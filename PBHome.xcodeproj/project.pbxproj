@@ -106,8 +106,8 @@
 		95A4F63B24EBF01900A5A024 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				95A4F63C24EBF01900A5A024 /* PBListModule.m */,
 				95A4F63D24EBF01900A5A024 /* PBListModule.h */,
+				95A4F63C24EBF01900A5A024 /* PBListModule.m */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 		95A4F64124EBF01A00A5A024 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				95A4F64424EBF01A00A5A024 /* PBListController.h */,
 				95A4F64224EBF01A00A5A024 /* PBListController.m */,
 				95A4F64324EBF01A00A5A024 /* PBListOneController.h */,
-				95A4F64424EBF01A00A5A024 /* PBListController.h */,
 				95A4F64524EBF01A00A5A024 /* PBListOneController.m */,
 			);
 			path = Controllers;
@@ -135,10 +135,10 @@
 		95A4F64624EBF01A00A5A024 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				95A4F64724EBF01A00A5A024 /* PBListView.m */,
-				95A4F64824EBF01A00A5A024 /* PBListCell.m */,
 				95A4F64924EBF01A00A5A024 /* PBListView.h */,
+				95A4F64724EBF01A00A5A024 /* PBListView.m */,
 				95A4F64A24EBF01A00A5A024 /* PBListCell.h */,
+				95A4F64824EBF01A00A5A024 /* PBListCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,8 +154,8 @@
 		95A4F64C24EBF01A00A5A024 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				95A4F64D24EBF01A00A5A024 /* PBHomeController.m */,
 				95A4F64E24EBF01A00A5A024 /* PBHomeController.h */,
+				95A4F64D24EBF01A00A5A024 /* PBHomeController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
